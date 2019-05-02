@@ -12,6 +12,7 @@
     height: 350px;
     width: auto;
     background: yellow;
+      overflow:auto;
   }
 
   #cajaspelis{
@@ -28,6 +29,7 @@
     background: green;
     margin-top:360px;
   }
+
   .pelis{
     text-align: center;
   }
