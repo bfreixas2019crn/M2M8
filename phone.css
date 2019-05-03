@@ -23,10 +23,10 @@
     overflow:auto;
   }
 
-  #cajaspelis{
+  .pelis{
     height: 180px;
     width: 120px;
-    background: red;
+    background: pink;
     margin: 10px 10px 10px 30px;
     float: left;
   }

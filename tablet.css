@@ -20,13 +20,12 @@ h1{
   width: auto;
   background: yellow;
   overflow:auto;
-
 }
 
-#cajaspelis{
+.pelis{
   height: 250px;
   width: 190px;
-  background: red;
+  background: pink;
   margin: 10px 30px 10px 70px;
   float: left;
   border-radius: 2px;

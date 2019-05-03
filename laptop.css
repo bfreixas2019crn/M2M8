@@ -25,10 +25,10 @@ h1{
   overflow:auto;
 }
 
-#cajaspelis{
+.pelis{
   height: 400px;
   width: 300px;
-  background: red;
+  background: pink;
   margin: 30px 30px 30px 75px;
 
   float: left;
