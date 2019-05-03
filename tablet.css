@@ -1,0 +1,55 @@
+@media screen and (min-width: 481px) and (max-width: 768px){
+  body{
+    background-color: #ccffff;
+}
+h1{
+  text-align: center;
+}
+#cuerpo{
+ width: 650px;
+ margin:auto;
+}
+#cabezal{
+  height: 50px;
+  background: pink;
+  margin: 0;
+  padding: 0;
+}
+#caja{
+  height: 350px;
+  width: auto;
+  background: yellow;
+  overflow:auto;
+
+}
+
+#cajaspelis{
+  height: 250px;
+  width: 190px;
+  background: red;
+  margin: 10px 30px 10px 70px;
+  float: left;
+  border-radius: 2px;
+
+}
+#maps{
+ width: 320px;
+ height: 400px;
+ background-color: pink;
+ float: left;
+}
+.mapas{
+  width: 270px;
+  height: 200px;
+  background: lightblue;
+  margin: 30px;
+  padding: 0;
+  border-radius: 2px;
+
+}
+.pelis{
+  text-align: center;
+
+
+}
+}
