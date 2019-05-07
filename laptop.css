@@ -6,7 +6,7 @@ h1{
   text-align: center;
 }
 #cabezal{
-  height: 50px;
+  height: 35px;
   background: pink;
   margin: 0;
   padding: 0;
@@ -92,8 +92,6 @@ h1{
   80%{
     left: -3250px;
   }
-
-
 
 }
 }

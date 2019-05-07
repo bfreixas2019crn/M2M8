@@ -26,8 +26,8 @@ h1{
 }
 
 .pelis{
-  height: 5px;
-  width: 5px;
+  height: 200px;
+  width: 140px;
   background: pink;
   margin: 10px 30px 10px 70px;
   display: inline-block;
