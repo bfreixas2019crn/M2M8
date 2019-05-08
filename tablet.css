@@ -1,0 +1,102 @@
+@media screen and (min-width: 481px) and (max-width: 768px){
+  body{
+    background-color: #ccffff;
+}
+h1{
+  text-align: center;
+}
+#cuerpo{
+ width: 650px;
+ margin:auto;
+}
+#cabezal{
+  height: 45px;
+  background: pink;
+  margin: auto;
+  padding: 0;
+  background-image:
+  url("img/logoo.png");
+  background-repeat: no-repeat;
+
+
+}
+#caja{
+  height: 220px;
+  width: auto;
+  background: yellow;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  float: left;
+}
+
+
+
+#maps{
+ width: 320px;
+ height: 265px;
+ background-color: pink;
+ float: left;
+}
+.mapas{
+  width: 270px;
+  height: 200px;
+  background: lightblue;
+  margin: 30px;
+  padding: 0;
+  border-radius: 2px;
+
+}
+.pelis{
+  height: 200px;
+  width: 140px;
+  background: pink;
+  margin: 10px 20px 10px 50px;
+  float: left;
+  text-align: center;
+}
+#bloc{
+  background-color: purple;
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 300%;
+  -webkit-animation: pass 20s infinite;
+  animation: pass 20s infinite;
+}
+#bloc:hover{
+  -webkit-animation-play-state: paused;
+  animation-play-state: paused;
+}
+
+@keyframes pass {
+    0%{
+      left: 0%;
+    }
+    10%{
+      left: -210px;
+    }
+    20%{
+      left: -420px;
+    }
+    30%{
+      left: -630px;
+    }
+    40%{
+      left: -840px;
+    }
+    50%{
+      left: -1050px;
+    }
+    60%{
+      left: -1260px;
+    }
+    70%{
+      left: -1470px;
+    }
+    80%{
+      left: -1680px;
+    }
+  }
+
+}
