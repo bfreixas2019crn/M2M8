@@ -31,7 +31,6 @@ h1{
 }
 
 
-
 #maps{
  width: 320px;
  height: 265px;
@@ -68,7 +67,9 @@ h1{
   -webkit-animation-play-state: paused;
   animation-play-state: paused;
 }
-
+.siete{
+  background-image: url("tablet/barcelona.jpg");
+}
 @keyframes pass {
     0%{
       left: 0%;

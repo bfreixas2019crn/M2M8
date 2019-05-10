@@ -45,7 +45,12 @@ h1{
   margin: 25px;
   padding: 0;
 }
-
+img{
+  width: 300px;
+  height: 400px;
+  border-radius: 5px;
+  box-shadow: 0px 5px 5px 0 #4d4d4d;
+}
 #bloc{
   background-color: purple;
   position: relative;
@@ -67,6 +72,10 @@ h1{
   display:inline-block;
   text-align: center;
 
+}
+.uno{
+  background-image:
+  url("img/perfume.jpg");
 }
 @keyframes pass {
   0%{
