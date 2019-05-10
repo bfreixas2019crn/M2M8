@@ -66,11 +66,28 @@ img{
   width: 300px;
   background: pink;
   margin: 30px 30px 30px 75px;
-  display:inline-block;
+  float: left;
   text-align: center;
   border-radius: 5px;
   box-shadow: 0 2px 10px 1px black;
-
+  overflow: hidden;
+  position:relative;
+}
+p{
+  height: 100px;
+  background: rgba(0, 0, 0, 0.5);
+  bottom: -100px;
+  left: 0;
+  right: 0;
+  margin:0;
+  position: absolute;
+  text-align: center;
+  color: white;
+  font-size: 2em;
+}
+.pelis:hover > p {
+  bottom: 0;
+  transition: 0.5;
 }
 .uno{
   background-image:
