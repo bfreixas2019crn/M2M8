@@ -67,6 +67,12 @@ h1{
   -webkit-animation-play-state: paused;
   animation-play-state: paused;
 }
+.uno{
+    background-image: url("tablet/.jpg");
+}
+.cuatro{
+  background-image: url("tablet/vicky.jpg");
+}
 .siete{
   background-image: url("tablet/barcelona.jpg");
 }
