@@ -31,20 +31,24 @@ h1{
 }
 
 
-#maps{
- width: 320px;
- height: 265px;
- background-color: pink;
- float: left;
-}
 .mapas{
-  width: 270px;
-  height: 200px;
+  width: 300px;
+  height: 265px;
   background: lightblue;
-  margin: 30px;
+  margin: 10px;
   padding: 0;
   border-radius: 2px;
+  box-shadow: 0 2px 10px 1px black;
+  float: left;
 
+}
+.girona{
+  background-image:
+  url("tablet/girona.jpg");
+}
+.bcn{
+  background-image:
+  url("tablet/mbarcelona.jpg");
 }
 .pelis{
   height: 200px;
@@ -53,6 +57,8 @@ h1{
   margin: 10px 20px 10px 50px;
   float: left;
   text-align: center;
+  border-radius: 5px;
+  box-shadow: 0 2px 10px 1px black;
 }
 #bloc{
   background-color: purple;
@@ -68,14 +74,34 @@ h1{
   animation-play-state: paused;
 }
 .uno{
-    background-image: url("tablet/.jpg");
+  background-image:
+  url("tablet/trono.jpg");
+}
+.dos{
+  background-image:
+  url("tablet/locos.jpg");
+}
+.tres{
+  background-image:
+  url("tablet/dias.jpg");
 }
 .cuatro{
-  background-image: url("tablet/vicky.jpg");
+  background-image:
+  url("tablet/vicky.jpg");
+}
+.cinco{
+  background-image:
+  url("tablet/madre.jpg");
+}
+.seis{
+  background-image:
+  url("tablet/perfume.jpg");
 }
 .siete{
-  background-image: url("tablet/barcelona.jpg");
+  background-image:
+  url("tablet/barcelona.jpg");
 }
+
 @keyframes pass {
     0%{
       left: 0%;
@@ -101,9 +127,7 @@ h1{
     70%{
       left: -1470px;
     }
-    80%{
-      left: -1680px;
-    }
+
   }
 
 }

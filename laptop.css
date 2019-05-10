@@ -32,18 +32,15 @@ h1{
   float: left;
 }
 
-#maps{
-  background-color: pink;
-  width: 650px;
-  height: 400px;
-  float: left;
-}
+
 .mapas{
   width: 600px;
   height: 350px;
   background: lightblue;
   margin: 25px;
   padding: 0;
+  box-shadow: 0 2px 10px 1px black;
+  float: left;
 }
 img{
   width: 300px;
@@ -52,7 +49,7 @@ img{
   box-shadow: 0px 5px 5px 0 #4d4d4d;
 }
 #bloc{
-  background-color: purple;
+  background-color: white;
   position: relative;
   top: 0;
   left: 0;
@@ -71,11 +68,45 @@ img{
   margin: 30px 30px 30px 75px;
   display:inline-block;
   text-align: center;
+  border-radius: 5px;
+  box-shadow: 0 2px 10px 1px black;
 
 }
 .uno{
   background-image:
-  url("img/perfume.jpg");
+  url("laptop/trono.jpg");
+}
+.dos{
+  background-image:
+  url("laptop/locos.jpg");
+}
+.tres{
+  background-image:
+  url("laptop/dias.jpg");
+}
+.cuatro{
+  background-image:
+  url("laptop/vicky.jpg");
+}
+.cinco{
+  background-image:
+  url("laptop/madre.jpg");
+}
+.seis{
+  background-image:
+  url("laptop/perfume.jpg");
+}
+.siete{
+  background-image:
+  url("laptop/barcelona.jpg");
+}
+.girona{
+  background-image:
+  url("laptop/girona.jpg");
+}
+.bcn{
+  background-image:
+  url("laptop/mbarcelona.jpg");
 }
 @keyframes pass {
   0%{
@@ -102,9 +133,7 @@ img{
   70%{
     left: -2850px;
   }
-  80%{
-    left: -3250px;
-  }
+
 
 }
 }
