@@ -76,7 +76,7 @@ p{
   color: white;
   font-size: 1em;
 }
-.pelis:hover > p {
+.pelis:active > p {
   bottom: 0;
   transition: 0.5;
 }
