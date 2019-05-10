@@ -59,11 +59,6 @@
   animation: pass 20s infinite;
 }
 
-#bloc:hover{
-  -webkit-animation-play-state: paused;
-  animation-play-state: paused;
-}
-
 #bloc:active{
   -webkit-animation-play-state: paused;
   animation-play-state: paused;
