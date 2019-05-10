@@ -93,8 +93,9 @@
   80%{
     left: -1280px;
   }
-  .siete{
-    background-image: url("phone/barcelona.jpg");
-  }
+
+}
+.siete{
+  background-image: url("phone/barcelona.jpg");
 }
 }
