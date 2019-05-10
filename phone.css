@@ -83,6 +83,10 @@ p{
   bottom: 0;
   transition: 0.5;
 }
+.pelis:hover > p {
+  bottom: 0;
+  transition: 0.5;
+}
 .uno{
   background-image:
   url("phone/trono.jpg");
