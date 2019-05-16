@@ -46,24 +46,24 @@ margin: auto;
 
 .fotos{
   height: 300px;
-  width: 45%;
-  background-color: pink;
+  width:35%;
   display: inline-block;
-  margin-left:30px;
+  margin-left:60px;;
 }
+
 .imagenes{
   width: 100%;
   height: auto;
 }
 
 .nuestro{
-  float: right;
+  text-align: right;
   margin: 20px;
 
 }
 
 .peli{
-  float: left;
+  text-align: left;
   margin: 15px;
 }
 
@@ -108,6 +108,10 @@ li{
   left: 0;
   transition: 1s;
 
+}
+img{
+  width: auto;
+  height: 300px;
 }
 
 

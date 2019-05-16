@@ -1,6 +1,6 @@
 @media screen and (max-width: 480px){
   body{
-    background-color:#33ccff;
+    background-color:#404040;
   }
 
     h1{
@@ -45,7 +45,7 @@ background: rgba(255, 255, 255, 0.9);
 
 }
 .nuestro{
-  text-align: right;
+  text-align: left;
   margin: 15px;
 }
 .peli{
