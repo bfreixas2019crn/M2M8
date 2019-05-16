@@ -1,6 +1,6 @@
 @media screen and (max-width: 480px){
   body{
-    background-color:#33ccff;
+    background: rgba(66, 168, 165, 0.5);
   }
   #cuerpo{
     width: 350px;
@@ -15,42 +15,39 @@
     background: white;
     margin: 0;
     padding: 0;
-    background-image:
-    url("img/logoo.png");
     background-repeat: no-repeat;
 
   }
   #caja{
     height: 200px;
     width: auto;
-    background: white;
+    background: rgba(255, 255, 255, 0.5);
     overflow: hidden;
     margin: 0;
     padding: 0;
-
   }
 
-  .pelis{
-    height: 180px;
-    width: 120px;
-    background: pink;
-    margin: 10px 10px 10px 30px;
-    float: left;
-    text-align: center;
-    border-radius: 5px;
-    box-shadow: 0 2px 10px 1px black;
-  }
 .mapas{
     width:350px;
     height: 240px;
-    background: green;
     margin-bottom:15px;
     padding: 0;
     box-shadow: 0 2px 10px 1px black;
+    overflow: hidden;
+    position: relative;
+      background-image: url("img/mapa.png");
+  }
+  .mapas:active > p {
+    bottom: 0;
+    transition: 0.5;
+  }
+  .mapas:hover > p {
+    bottom: 0;
+    transition: 0.5;
+  }
   }
 
 #bloc:not(:focus){
-  background-color: purple;
   position: relative;
   top: 0;
   left: 0;
@@ -58,10 +55,44 @@
   -webkit-animation: pass 20s infinite;
   animation: pass 20s infinite;
 }
-
+#bloc:hover{
+  -webkit-animation-play-state: paused;
+  animation-play-state: paused;
+}
 #bloc:active{
   -webkit-animation-play-state: paused;
   animation-play-state: paused;
+}
+.pelis{
+  height: 180px;
+  width: 120px;
+  margin: 10px 10px 10px 30px;
+  float: left;
+  border-radius: 5px;
+  box-shadow: 0 2px 10px 1px black;
+  overflow: hidden;
+  position: relative;
+
+}
+p{
+  height: 50px;
+  background: rgba(0, 0, 0, 0.5);
+  bottom: -50px;
+  left: 0;
+  right: 0;
+  margin:0;
+  position: absolute;
+  text-align: center;
+  color: white;
+
+}
+.pelis:active > p {
+  bottom: 0;
+  transition: 0.5;
+}
+.pelis:hover > p {
+  bottom: 0;
+  transition: 0.5;
 }
 .uno{
   background-image:

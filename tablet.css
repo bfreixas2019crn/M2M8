@@ -1,6 +1,6 @@
 @media screen and (min-width: 481px) and (max-width: 768px){
   body{
-    background-color: #ccffff;
+    background: rgba(66, 168, 165, 0.5);
 }
 h1{
   text-align: center;
@@ -11,36 +11,45 @@ h1{
 }
 #cabezal{
   height: 45px;
-  background: pink;
+  background: white;
   margin: auto;
   padding: 0;
   background-image:
-  url("img/logoo.png");
+  url("img/logoo.svg");
   background-repeat: no-repeat;
 
 
 }
 #caja{
   height: 220px;
-  width: auto;
-  background: yellow;
+  width:95%;
+    background: rgba(255, 255, 255, 0.5);
   overflow: hidden;
-  margin: 0;
+  margin: auto;
   padding: 0;
   float: left;
 }
 
 
 .mapas{
-  width: 300px;
+  width: 70%;
   height: 265px;
   background: lightblue;
-  margin: 10px;
-  padding: 0;
+  margin: auto;
+  margin-top: 300px;
   border-radius: 2px;
   box-shadow: 0 2px 10px 1px black;
-  float: left;
-
+  overflow: hidden;
+  position: relative;
+    background-image: url("img/mapa.png");
+}
+.mapas:active > p {
+  bottom: 0;
+  transition: 0.5;
+}
+.mapas:hover > p {
+  bottom: 0;
+  transition: 0.5;
 }
 .girona{
   background-image:
@@ -50,16 +59,7 @@ h1{
   background-image:
   url("tablet/mbarcelona.jpg");
 }
-.pelis{
-  height: 200px;
-  width: 140px;
-  background: pink;
-  margin: 10px 20px 10px 50px;
-  float: left;
-  text-align: center;
-  border-radius: 5px;
-  box-shadow: 0 2px 10px 1px black;
-}
+
 #bloc{
   background-color: purple;
   position: relative;
@@ -72,6 +72,38 @@ h1{
 #bloc:hover{
   -webkit-animation-play-state: paused;
   animation-play-state: paused;
+}
+.pelis{
+  height: 200px;
+  width: 140px;
+  background: pink;
+  margin: 10px 20px 10px 50px;
+  float: left;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0 2px 10px 1px black;
+  overflow: hidden;
+  position: relative;
+}
+p{
+  height: 50px;
+  background: rgba(0, 0, 0, 0.5);
+  bottom: -50px;
+  left: 0;
+  right: 0;
+  margin:0;
+  position: absolute;
+  text-align: center;
+  color: white;
+  font-size: 1em;
+}
+.pelis:active > p {
+  bottom: 0;
+  transition: 0.5;
+}
+.pelis:hover > p {
+  bottom: 0;
+  transition: 0.5;
 }
 .uno{
   background-image:
