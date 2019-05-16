@@ -1,6 +1,6 @@
 @media screen and (min-width: 481px) and (max-width: 768px){
   body{
-    background: rgba(66, 168, 165, 0.5);
+    background:#99d6ff;
 }
 h1{
   text-align: center;
@@ -14,8 +14,6 @@ h1{
   background: white;
   margin: auto;
   padding: 0;
-  background-image:
-  url("img/logoo.svg");
   background-repeat: no-repeat;
 
 
@@ -32,16 +30,15 @@ h1{
 
 
 .mapas{
-  width: 70%;
+  width: 65%;
   height: 265px;
-  background: lightblue;
   margin: auto;
   margin-top: 300px;
   border-radius: 2px;
   box-shadow: 0 2px 10px 1px black;
   overflow: hidden;
   position: relative;
-    background-image: url("img/mapa.png");
+  background-repeat: no-repeat;
 }
 .mapas:active > p {
   bottom: 0;
@@ -161,5 +158,15 @@ p{
     }
 
   }
+.logo{
+  width: auto;
+  height: 42px;
+  box-shadow: none;
+}
+.foto{
+  width: auto;
+  height: 265px;
+
+}
 
 }
