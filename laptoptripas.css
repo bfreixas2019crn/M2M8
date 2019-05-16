@@ -46,7 +46,7 @@ margin: auto;
 
 .fotos{
   height: 300px;
-  width:35%;
+  width:auto;
   display: inline-block;
   margin-left:60px;;
 }
@@ -111,7 +111,7 @@ li{
 }
 img{
   width: auto;
-  height: 90%;
+  height: 200px;
 }
 
 
