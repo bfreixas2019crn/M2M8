@@ -35,7 +35,10 @@
     box-shadow: 0 2px 10px 1px black;
     overflow: hidden;
     position: relative;
+<<<<<<< HEAD
       background-image: url("img/mapa.png");
+=======
+>>>>>>> 49895d51b7244dd70100b28551301217adc112e7
   }
   .mapas:active > p {
     bottom: 0;
