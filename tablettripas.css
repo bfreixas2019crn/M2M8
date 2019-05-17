@@ -35,14 +35,15 @@ h2{
 
 .fotos{
   height: auto;
-  width: 500px;
-  margin-left: 50px;
+
 }
 .imagenes{
   width: 100%;
   height: auto;
   background: rgba(255, 255, 255, 0.9);
 }
+
+
 
 .nuestro{
   text-align: left;
@@ -78,12 +79,6 @@ margin: auto;
 }
 
 
-.imagenes{
-  width: 100%;
-  height: auto;
-
-
-}
 
 .nuestro{
   text-align: left;
@@ -137,7 +132,9 @@ li{
 }
 img{
   width: auto;
-  height: 300px;
+  height: 260px;
+  margin: 5%;
+  margin-bottom: -20px;
 }
 
 }
