@@ -45,9 +45,10 @@ margin: auto;
 }
 
 .fotos{
-  height: 300px;
-  width:auto;
+  height: 200px;
+  width:400px;
   display: inline-block;
+  background-color: pink;
   margin-left:60px;;
 }
 
