@@ -19,7 +19,7 @@
 
 #cabezal{
   height: 45px;
-background: rgba(255, 255, 255, 0.9);
+  background: rgba(255, 255, 255, 0.9);
   margin: 0;
   padding: 0;
 }
@@ -135,7 +135,8 @@ li{
 
 img{
   width: auto;
-  height: 80%;
+  height: 75%;
+  margin: 2%;
 }
 
 
