@@ -17,12 +17,19 @@
       text-align: center;
     }
 
-#cabezal{
-  height: 45px;
-  background: rgba(255, 255, 255, 0.9);
-  margin: 0;
-  padding: 0;
-}
+    #nav{
+      height: 45px;
+      background: white;
+      margin: 0;
+      padding: 0;
+    }
+    #nav img{
+      height: 80%;
+      width: auto;
+      margin: 5px;
+      padding: 0;
+      margin-left: 100px;
+    }
 #sinopsis{
   width: 90%;
   height:auto;
@@ -35,22 +42,24 @@
 }
 
 .fotos{
-  height: 200px;
-  width: auto;
-  display: inline-block;
+  width: 49%;
+  height: auto;
+  float: left;
+  margin-top: 30px;
+  margin-left: 5px;
 }
 .imagenes{
   width: 100%;
   height:auto;
 
 }
-.nuestro{
-  text-align: left;
-  margin: 15px;
-}
 .peli{
-  text-align: left;
-  margin: 15px;
+  float: left;
+  margin: 0;
+}
+.nuestro{
+  float: right;
+  margin: 0;
 }
 #cabezal{
   height: 45px;

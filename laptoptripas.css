@@ -7,35 +7,42 @@
         margin-top: 30px;
         text-align: center;
         margin-bottom: 30px;
+        font-family: 'Playfair Display', serif;
     }
-
     h2{
       margin-top: 80px;
       text-align: center;
+      font-family: 'Playfair Display', serif;
     }
     p{
       text-align: center;
+      height: auto;
+      width: 80%;
+      background-image: pink;
+      margin: auto;
 
+      font-family: 'PT Serif Caption', serif;
     }
 
-
-#cabezal{
+#nav{
   height: 45px;
   background: white;
   margin: 0;
   padding: 0;
-
 }
-
-
-
+#nav img{
+  height: 80%;
+  width: auto;
+  margin: 5px;
+  padding: 0;
+  margin-left: 100px;
+}
 #sipnosis{
   width: 95%;
   height: auto;
   background: rgba(255, 255, 255, 0.8);
   margin: auto;
 }
-
 
 #caja{
 width: 90%;
@@ -44,28 +51,32 @@ background: rgba(255, 255, 255, 0.7);
 margin: auto;
 }
 
-.fotos{
-  height: 200px;
-  width:400px;
-  display: inline-block;
-  margin-left:60px;;
-}
-
 .imagenes{
+  width: 80%;
+  height: auto;
+  text-align: center;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.fotos{
+  width: 49%;
+  height: auto;
+  float: left;
+  margin-top: 30px;
+  margin-left: 5px;
+}
+.fotos img{
   width: 100%;
   height: auto;
-  
-}
-
-.nuestro{
-  text-align: right;
-  margin: 20px;
-
 }
 
 .peli{
-  text-align: left;
-  margin: 15px;
+  float: left;
+  margin: 0;
+}
+.nuestro{
+  float: right;
+  margin: 0;
 }
 
 .clic{
@@ -110,11 +121,13 @@ li{
   transition: 1s;
 
 }
-img{
-  width: auto;
-  height: 115%;
-  margin-left: 10px;
-}
 
+.texto{
+  height: auto;
+  width: 80%;
+  background-image: pink;
+  margin: auto;
+
+}
 
 }
