@@ -48,13 +48,13 @@ margin: auto;
   height: 200px;
   width:400px;
   display: inline-block;
-  background-color: pink;
   margin-left:60px;;
 }
 
 .imagenes{
   width: 100%;
   height: auto;
+  
 }
 
 .nuestro{
@@ -112,7 +112,8 @@ li{
 }
 img{
   width: auto;
-  height: 200px;
+  height: 115%;
+  margin-left: 10px;
 }
 
 
