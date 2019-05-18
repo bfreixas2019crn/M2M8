@@ -44,7 +44,7 @@
   margin: auto;
 }
 .texto{
-  width: 95%;
+  width: 90%;
   text-align: justify;
   margin: auto;
   margin-bottom: 5px;
@@ -73,13 +73,13 @@
   text-align: left;
   margin-top: -8px;
   margin-left: 6px;
-    font-style: italic;
+  font-style: italic;
 }
 .nuestro{
   text-align: left;
   margin-top: -8px;
   margin-left: 6px;
-    font-style: italic;
+  font-style: italic;
 }
 #cabezal{
   height: 45px;

@@ -1,23 +1,23 @@
 @media screen and (min-width: 481px) and (max-width: 768px){
   body{
-    background-color: #404040;
+    background-color:#000066;
 }
 h1{
   margin-top: 30px;
   text-align: center;
   text-align: center;
+  font-family: 'Cinzel', serif;
 }
 h2{
   margin-top: 50px;
   text-align: center;
+  font-family: 'Cinzel', serif;
 }
 p{
   text-align: center;
+  font-family: 'PT Serif', serif;
 }
-.texto{
-  text-align: center;
-  margin: 25px;
-}
+
 
 
 #nav{
@@ -31,19 +31,22 @@ p{
   width: auto;
   margin: 5px;
   padding: 0;
-  margin-left: 100px;
-}
-
-#caja{
-  height: auto;
-  width: 90%;
-  background: rgba(255, 255, 255, 0.9);
-  margin: auto;
+  margin-left: 50px;
 }
 #sinopsis{
   width: 90%;
   height: auto;
   margin: auto;
+}
+#caja{
+  height: auto;
+  width: 90%;
+  margin: auto;
+}
+
+.texto{
+  text-align: center;
+  margin: 25px;
 }
 
 .imagenes{
