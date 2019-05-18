@@ -19,36 +19,29 @@
       text-align: center;
       font-family: 'PT Serif', serif;
     }
+    li{
+      list-style-type: none;
+    }
 
-    #nav{
-      height: 45px;
-      background: white;
-      margin: 0;
-      padding: 0;
-    }
-    #nav img{
-      height: 80%;
-      width: auto;
-      margin: 5px;
-      padding: 0;
-      margin-left: 50px;
-    }
-#sinopsis{
-  width: 90%;
-  height:auto;
-  margin: auto;
+#nav{
+  height: 45px;
+  background: white;
+  margin: 0;
+  padding: 0;
 }
-#caja{
-  width: 90%;
-  height: auto;
-  margin: auto;
+#nav img{
+  height: 80%;
+  width: auto;
+  margin: 5px;
+  padding: 0;
+  margin-left: 50px;
 }
+
 .texto{
   width: 90%;
   text-align: justify;
   margin: auto;
-  margin-bottom: 5px;
-
+  margin-bottom: 15px;
 }
 
 .imagenes{
@@ -62,7 +55,6 @@
   width: 100%;
   height: auto;
   float: left;
-  margin-top: 0px;
 }
 .fotos img{
   width: 100%;
@@ -71,49 +63,44 @@
 
 .peli{
   text-align: left;
-  margin-top: -8px;
-  margin-left: 6px;
+  margin-top: -5px;
   font-style: italic;
+    font-size: 12px;
 }
 .nuestro{
   text-align: left;
-  margin-top: -8px;
-  margin-left: 6px;
+  margin-top: -5px;
   font-style: italic;
+  font-size: 12px;
 }
 #cabezal{
   height: 45px;
   background: white;
   margin: 0;
   padding: 0;
-
 }
-
 
 #sipnosis{
   width: 90%;
   height: auto;
-  background: rgba(255, 255, 255, 0.9);
   margin: auto;
+  background: rgba(255, 255, 255, 0.9);
 }
-
-
 #caja{
 width: 90%;
 height: auto;
-background: rgba(255, 255, 255, 0.9);
 margin: auto;
+background: rgba(255, 255, 255, 0.9);
 }
-
 
 .clic{
   cursor: pointer;
   position: absolute;
-  top: 10px;
-  left: 10px;
+  top: 7px;
+  left: 7px;
   z-index:1;
-  width: 70px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   opacity: 0;
 }
 #burger{
@@ -129,14 +116,13 @@ margin: auto;
   margin: 5px 0;
   background-color: BLACK;
 }
-li{
-  list-style-type: none;
-}
+
 #menu{
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.9);
   width: 50px;
   left: -100%;
   position: absolute;
+  margin-top: 46px;
 }
 #menu li{
   color: white;
@@ -144,18 +130,7 @@ li{
 .clic:checked ~ #menu{
   position: fixed;
   left: 0;
-  transition: 1s;
+  transition: 0.5s;
 }
-
-img{
-  width: auto;
-  height: 75%;
-  margin: 2%;
-
-}
-
-
-
-
 
 }

@@ -1,27 +1,25 @@
 @media screen and (min-width: 769px){
    body{
-     background-color: #404040;
+     background-color:#000066;
    }
 
     h1{
         margin-top: 30px;
         text-align: center;
         margin-bottom: 30px;
-        font-family: 'Playfair Display', serif;
+        font-family: 'Cinzel', serif;
     }
     h2{
       margin-top: 80px;
       text-align: center;
-      font-family: 'Playfair Display', serif;
+      font-family: 'Cinzel', serif;
     }
     p{
       text-align: center;
-      height: auto;
-      width: 80%;
-      background-image: pink;
-      margin: auto;
-
-      font-family: 'PT Serif Caption', serif;
+      font-family: 'PT Serif', serif;
+    }
+    li{
+      list-style-type: none;
     }
 
 #nav{
@@ -35,24 +33,17 @@
   width: auto;
   margin: 5px;
   padding: 0;
-  margin-left: 100px;
+  margin-left: 50px;
 }
-#sipnosis{
-  width: 95%;
-  height: auto;
-  background: rgba(255, 255, 255, 0.8);
+.texto{
+  width: 90%;
+  text-align: justify;
   margin: auto;
-}
-
-#caja{
-width: 90%;
-height: auto;
-background: rgba(255, 255, 255, 0.7);
-margin: auto;
+  margin-bottom: 15px;
 }
 
 .imagenes{
-  width: 80%;
+  width: 95%;
   height: auto;
   text-align: center;
   margin: 0 auto;
@@ -62,7 +53,6 @@ margin: auto;
   width: 49%;
   height: auto;
   float: left;
-  margin-top: 30px;
   margin-left: 5px;
 }
 .fotos img{
@@ -71,14 +61,30 @@ margin: auto;
 }
 
 .peli{
-  float: left;
-  margin: 0;
+  text-align: right;
+  margin-top: -5px;
+  font-style: italic;
+  font-size: 12px;
 }
 .nuestro{
-  float: right;
-  margin: 0;
+  text-align: left;
+  margin-top: -5px;
+  font-style: italic;
+    font-size: 12px;
+}
+#sipnosis{
+  width: 90%;
+  height: auto;
+  margin: auto;
+ background: rgba(255, 255, 255, 0.9);
 }
 
+#caja{
+  width: 90%;
+  height: auto;
+  margin: auto;
+  background: rgba(255, 255, 255, 0.7);
+}
 .clic{
   cursor: pointer;
   position: absolute;
@@ -122,12 +128,6 @@ li{
 
 }
 
-.texto{
-  height: auto;
-  width: 80%;
-  background-image: pink;
-  margin: auto;
 
-}
 
 }

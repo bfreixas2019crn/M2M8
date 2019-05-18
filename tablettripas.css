@@ -17,6 +17,9 @@ p{
   text-align: center;
   font-family: 'PT Serif', serif;
 }
+li{
+  list-style-type: none;
+}
 
 
 
@@ -31,59 +34,49 @@ p{
   width: auto;
   margin: 5px;
   padding: 0;
-  margin-left: 50px;
+  margin-left:50px;
 }
-#sinopsis{
-  width: 90%;
-  height: auto;
-  margin: auto;
-}
-#caja{
-  height: auto;
-  width: 90%;
-  margin: auto;
-}
-
 .texto{
-  text-align: center;
-  margin: 25px;
+  width: 95%;
+  text-align: justify;
+  margin: auto;
+  margin-bottom: 10px;
 }
 
 .imagenes{
-  width: 80%;
+  width: 95%;
   height: auto;
   text-align: center;
   margin: 0 auto;
   overflow: hidden;
 }
 .fotos{
-  width: 90%;
+  width: 100%;
   height: auto;
   float: left;
-
-
 }
 .fotos img{
   width: 100%;
   height: auto;
 }
 .peli{
-  float: left;
-  margin: 0;
+  text-align: left;
+  margin-top: -6px;
+ font-size: 12px;
+  font-style: italic;
 }
 .nuestro{
-  float: right;
-  margin: 0;
+  text-align: left;
+  margin-top: -6px;
+  font-size: 12px;
+  font-style: italic;
 }
 
 #cabezal{
   height: 45px;
-  background: rgba(255, 255, 255, 0.9);
+  background: white;
   margin: 0;
   padding: 0;
-  background-image: url("img/logo.");
-  border-image-width: auto;
-
 }
 
 
@@ -99,28 +92,17 @@ p{
 width: 90%;
 height: auto;
 margin: auto;
-}
-
-
-
-.nuestro{
-  text-align: left;
-  margin: 15px;
-}
-
-.peli{
-  text-align: left;
-  margin: 15px;
+background: rgba(255, 255, 255, 0.9);
 }
 
 .clic{
   cursor: pointer;
   position: absolute;
-  top: 10px;
-  left: 10px;
+  top: 7px;
+  left: 7px;
   z-index:1;
-  width: 70px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   opacity: 0;
 }
 #burger{
@@ -136,14 +118,13 @@ margin: auto;
   margin: 5px 0;
   background-color: BLACK;
 }
-li{
-  list-style-type: none;
-}
+
 #menu{
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.9);
   width: 50px;
-  left: -100%;
+  left: -100px;
   position: absolute;
+  margin-top: 46px;
 }
 #menu li{
   color: white;
@@ -151,8 +132,7 @@ li{
 .clic:checked ~ #menu{
   position: fixed;
   left: 0;
-  transition: 1s;
+  transition: 0.5s;
 }
-
 
 }
