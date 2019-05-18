@@ -1,9 +1,24 @@
 @media screen and (min-width: 769px){
   body{
-    background:#99d6ff;
+    background:#000066;
   }
 h1{
   text-align: center;
+  font-family: 'Cinzel', serif;
+  color: white;
+}
+p{
+  height: 100px;
+  background: rgba(0, 0, 0, 0.5);
+  bottom: -100px;
+  left: 0;
+  right: 0;
+  margin:0;
+  position: absolute;
+  text-align: center;
+  color: white;
+  font-size: 2em;
+  font-family: 'PT Serif', serif;
 }
 #cabezal{
   height: 45px;
@@ -31,7 +46,7 @@ h1{
 #caja{
   height: 450px;
   width: 100%;
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.9);
   overflow: hidden;
   margin: 0;
   padding: 0;
@@ -81,18 +96,7 @@ img{
   overflow: hidden;
   position:relative;
 }
-p{
-  height: 100px;
-  background: rgba(0, 0, 0, 0.5);
-  bottom: -100px;
-  left: 0;
-  right: 0;
-  margin:0;
-  position: absolute;
-  text-align: center;
-  color: white;
-  font-size: 2em;
-}
+
 .pelis:hover > p {
   bottom: 0;
   transition: 0.5;

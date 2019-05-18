@@ -4,15 +4,16 @@
    }
 
     h1{
-        margin-top: 30px;
         text-align: center;
         margin-bottom: 30px;
         font-family: 'Cinzel', serif;
+        font-size: 50px;
     }
     h2{
       margin-top: 80px;
       text-align: center;
       font-family: 'Cinzel', serif;
+      font-size: 30px;
     }
     p{
       text-align: center;
@@ -20,6 +21,7 @@
     }
     li{
       list-style-type: none;
+      font-family: 'PT Serif', serif;
     }
 
 #nav{
@@ -70,29 +72,30 @@
   text-align: left;
   margin-top: -5px;
   font-style: italic;
-    font-size: 12px;
+  font-size: 12px;
 }
+
 #sipnosis{
   width: 90%;
   height: auto;
   margin: auto;
- background: rgba(255, 255, 255, 0.9);
+  background: rgba(255, 255, 255, 0.9);
 }
 
 #caja{
   width: 90%;
   height: auto;
   margin: auto;
-  background: rgba(255, 255, 255, 0.7);
+  background: rgba(255, 255, 255, 0.9);
 }
 .clic{
   cursor: pointer;
   position: absolute;
-  top: 10px;
-  left: 10px;
+  top: 7px;
+  left: 7px;
   z-index:1;
-  width: 70px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   opacity: 0;
 }
 #burger{
@@ -116,18 +119,12 @@ li{
   width: 50px;
   left: -100%;
   position: absolute;
-  margin-top: 5px;
-}
-#menu li{
-  color: white;
+  margin-top: 46px;
 }
 .clic:checked ~ #menu{
   position: fixed;
   left: 0;
-  transition: 1s;
-
+  transition: 0.5s;
 }
-
-
 
 }

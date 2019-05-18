@@ -1,26 +1,38 @@
 @media screen and (max-width: 480px){
   body{
-    background:#99d6ff;
+    background:#000066;
+  }
+  h1{
+    text-align: center;
+    font-family: 'Cinzel', serif;
+  }
+  p{
+    height: 50px;
+    background: rgba(0, 0, 0, 0.5);
+    bottom: -50px;
+    left: 0;
+    right: 0;
+    margin:0;
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-family: 'PT Serif', serif;
   }
   #cuerpo{
     width: 350px;
     margin: auto;
+  }
 
-  }
-  h1{
-    text-align: center;
-  }
   #cabezal{
     height: 45px;
     background: white;
     margin: 0;
     padding: 0;
-
   }
   #caja{
     height: 200px;
     width: auto;
-    background: rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.9);
     overflow: hidden;
     margin: 0;
     padding: 0;
@@ -71,18 +83,7 @@
   position: relative;
 
 }
-p{
-  height: 50px;
-  background: rgba(0, 0, 0, 0.5);
-  bottom: -50px;
-  left: 0;
-  right: 0;
-  margin:0;
-  position: absolute;
-  text-align: center;
-  color: white;
 
-}
 .pelis:active > p {
   bottom: 0;
   transition: 0.5;
