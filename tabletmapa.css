@@ -1,0 +1,51 @@
+@media screen and (min-width: 481px) and (max-width: 768px){
+    p.map{
+      width: 100%;
+      height: 100px;
+      background: rgba(0, 0, 0, 0.5);
+      bottom: -100px;
+      left: 0;
+      right: 0;
+      margin:0;
+      position: absolute;
+      text-align: center;
+      color: white;
+      font-size: 2em;
+    }
+    .mapas{
+      height: 223px;
+      width: 60%;
+      margin: 15px 20% 15px 20%;
+      float: left;
+      border-radius: 5px;
+      box-shadow: 0 2px 10px 1px black;
+      overflow: hidden;
+      position:relative;
+    }
+    .mapas:hover > p {
+      bottom: 0;
+      transition: 0.5;
+    }
+    .girona{
+      background-image:
+      url("img/gironamap.PNG");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+    }
+    .barcelona{
+      background-image:
+      url("img/barcelonamap.PNG");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+    }
+    #caja{
+     margin: auto;
+     width: 90%;
+     height: auto;
+    }
+
+}
