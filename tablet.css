@@ -179,5 +179,13 @@ p{
   margin-top: 5px;
   margin-right: 20px;
 }
+.logis{
+  width: 30px;
+  height: auto;
+  float: right;
+  box-shadow: none;
+  margin-top: 8px;
+  margin-right: 8px;
+}
 
 }
