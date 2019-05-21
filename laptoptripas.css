@@ -1,6 +1,6 @@
 @media screen and (min-width: 769px){
    body{
-     background-color:#000066;
+     background-color:#193467;
    }
 
     h1{
@@ -33,9 +33,11 @@
 #nav img{
   height: 80%;
   width: auto;
-  margin: 5px;
+  margin-top:5px;
   padding: 0;
-  margin-left: 50px;
+  margin-left: 10px;
+
+
 }
 .texto{
   width: 90%;
@@ -88,43 +90,21 @@
   margin: auto;
   background: rgba(255, 255, 255, 0.9);
 }
-.clic{
-  cursor: pointer;
-  position: absolute;
-  top: 7px;
-  left: 7px;
-  z-index:1;
-  width: 40px;
-  height: 40px;
-  opacity: 0;
-}
-#burger{
-  position: absolute;
-  margin: 0;
-  padding: 0;
-  top: 8px;
-  left: 10px;
-}
-#burger li{
-  width: 40px;
-  height: 8px;
-  margin: 5px 0;
-  background-color: BLACK;
-}
-li{
-  list-style-type: none;
-}
+
+
 #menu{
   background: rgba(255, 255, 255, 0.9);
-  width: 50px;
-  left: -100%;
-  position: absolute;
-  margin-top: 46px;
+  width: auto;
+  margin-top: 10px;
+  float: right;
+
 }
-.clic:checked ~ #menu{
-  position: fixed;
-  left: 0;
-  transition: 0.5s;
+#menu li {
+  display:inline-block;
+  margin-right: 20px;
+}
+input{
+  display: none;
 }
 
 }
